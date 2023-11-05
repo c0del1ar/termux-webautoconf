@@ -1,0 +1,12 @@
+c='\033['
+R=$c'31m'
+G=$c'32m'
+Y=$c'33m'
+B=$c'34m'
+C=$c'36m'
+W=$c'1;37m'
+reset=$c'0m'
+warn="["$Y"!"$reset"]"
+info="["$G"i"$reset"]"
+quest="["$B"?"$reset"]"
+err="["$R"!"$reset"]"
